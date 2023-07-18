@@ -1,0 +1,76 @@
+@media screen and (max-width:576px) {
+    .navbar-section{
+      flex-direction: column;
+      width: 100%;
+      margin-top: 20px;
+
+       
+    }
+    .navbar-section ul{
+        flex-direction: column;
+        margin-top: 20px;
+       
+    }
+    .banner-container{
+        flex-direction: column-reverse;
+       height: 70vh;
+        
+    }
+    .banner-photo img{
+        width: 100%;
+        /* margin-top: 50px; */
+        
+        
+    }
+    .banner-content  {
+        width: 100%;
+        text-align: center;
+        
+    }
+    .banner-content h1{
+        color: #3A3A3A;
+        font-family: Poppins;
+        font-size: 28px;
+        font-weight: 700;
+        line-height: normal;
+        margin-top: 20px;
+        text-align: center;
+        width: 100%;
+        
+
+    }
+    .banner-content p{
+        width: 100%;
+       text-align: center;
+    }
+
+    .sponsar-container{
+       flex-wrap: wrap;
+       width: 100%;
+       gap: 8px;
+       border: none;
+       margin-top: 50px;
+       
+    }
+    .popular-cards{
+        grid-template-columns: 1fr;
+    }
+    .feauture-container{
+        flex-direction: column-reverse;
+        width: 100%;
+        margin-top: 250px;
+        
+    }
+    .feuture-content{
+        width: 100%;
+        text-align: center;
+        padding: 10px;
+        
+    }
+    .join-now{
+        width: 30%;
+        margin: 0 auto;
+    }
+   
+    
+}
